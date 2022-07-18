@@ -1,0 +1,7 @@
+fileignoreconfig:
+- filename: terraform/env_vars.json
+  checksum: e4b1ccb14de62114366804ce456f5e8032728bd0a48f226f504e2accdcb47771
+- filename: terraform/main.tf
+  checksum: 5589a89ac6c920ed168f16f3dbd540efb27915d08310194ac7a291202961f646
+- filename: terraform/terraform.tfvars
+  checksum: 6d9bcb6b209d8546af3c4ff305337402f9e682d63fbd846ecf07c3836e56ea57
