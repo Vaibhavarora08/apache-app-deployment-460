@@ -59,9 +59,9 @@ pipeline {
         }
       // Uploading Docker images into AWS ECR
 
-    stage ('Test'){
+    stage ('Scan Image'){
         steps{
-            echo 'Testing application'
+            echo 'Scanning the Docker image'
         }
     }
     stage('Pushing to ECR') {
