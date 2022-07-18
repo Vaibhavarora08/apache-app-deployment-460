@@ -15,11 +15,6 @@ variable "aws_key_pair_name" {
   description = "AWS Key Pair Name"
 }
 
-# variable "aws_key_pair_file" {
-#   type = string
-#   description = "AWS Key Pair File"
-# }
-
 variable "aws_region" {
   type        = string
   description = "AWS Region"
@@ -58,15 +53,12 @@ variable "availability_zones" {
   description = "List of availability zones"
 }
 
-// variable "database_name" {
-//   description = "Database Name"
-// }
-
-// variable "database_password" {
-//   description = "Database Password"
-// }
-
 variable "state_bucket" {
   type        = string
   description = "The bucket to store the Terraform state file"
+}
+
+variable "account_number" {
+  description = "AWS account number where ecr repo is deployed"
+  type        = string
 }
